@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FirstCode</string>
+    <string name="button1">Button1</string>
+    <string name="remove">Remove</string>
+    <string name="add">Add</string>
+    <string name="make_call">Make Call</string>
+    <string name="btn_open_first">打开FirstActivity</string>
+    <string name="open_runtime_permission">打开RuntimePermission</string>
+    <string name="open_contact">打开Contact</string>
+</resources>
