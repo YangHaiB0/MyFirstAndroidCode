@@ -12,6 +12,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".night.MediaActivity"></activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.yanghaibooo.firstcode.night.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name=".night.CameraActivity" />
+        <activity android:name=".night.NotificationMainActivity" />
+        <activity android:name=".night.NotificationActivity" />
+        <activity android:name=".eight.ContactActivity" />
+        <activity android:name=".eight.RuntimePermissionActivity" />
+        <activity android:name=".FirstActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,9 +37,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FirstActivity" />
-        <activity android:name=".ContactActivity" />
-        <activity android:name=".RuntimePermissionActivity" />
     </application>
 
 </manifest>

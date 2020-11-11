@@ -24,5 +24,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/open_contact" />
+    <Button
+        android:id="@+id/openNotificationBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_notification" />
+    <Button
+        android:id="@+id/openCameraBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_camera" />
 
 </LinearLayout>

@@ -7,4 +7,13 @@
     <string name="btn_open_first">打开FirstActivity</string>
     <string name="open_runtime_permission">打开RuntimePermission</string>
     <string name="open_contact">打开Contact</string>
+    <string name="notification_layout">This is notification layout</string>
+    <string name="send_notice">Send Notice</string>
+    <string name="open_notification">打开Notification</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="from_album">From Album</string>
+    <string name="open_camera">打开Camera</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
 </resources>

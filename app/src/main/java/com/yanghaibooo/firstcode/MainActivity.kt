@@ -3,6 +3,10 @@ package com.yanghaibooo.firstcode
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.yanghaibooo.firstcode.eight.ContactActivity
+import com.yanghaibooo.firstcode.eight.RuntimePermissionActivity
+import com.yanghaibooo.firstcode.night.CameraActivity
+import com.yanghaibooo.firstcode.night.NotificationMainActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -21,6 +25,12 @@ class MainActivity : AppCompatActivity() {
         }
         openContactBtn.setOnClickListener {
             Intent(this, ContactActivity::class.java).also(this::startActivity)
+        }
+        openNotificationBtn.setOnClickListener {
+            Intent(this, NotificationMainActivity::class.java).also(this::startActivity)
+        }
+        openCameraBtn.setOnClickListener {
+            Intent(this, CameraActivity::class.java).also(this::startActivity)
         }
     }
 }
