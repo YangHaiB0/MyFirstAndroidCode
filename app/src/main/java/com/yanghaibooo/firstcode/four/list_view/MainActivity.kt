@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.yanghaibooo.firstcode.R
+import com.yanghaibooo.firstcode.four.Fruit
 import kotlinx.android.synthetic.main.activity_four_listview_main.*
 
 class MainActivity : AppCompatActivity() {

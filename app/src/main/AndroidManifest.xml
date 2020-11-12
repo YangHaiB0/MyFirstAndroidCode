@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".four.list_view.MainActivity"></activity>
+        <activity android:name=".four.recycle_view.MainActivity"></activity>
+        <activity android:name=".four.list_view.MainActivity" />
         <activity android:name=".eight.MainEightActivity" />
         <activity android:name=".two.MainTwoActivity" />
         <activity android:name=".three.MainThreeActivity" />

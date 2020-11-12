@@ -1,5 +1,6 @@
 package com.yanghaibooo.firstcode.four
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.yanghaibooo.firstcode.R
@@ -15,10 +16,10 @@ class MainFourActivity : AppCompatActivity() {
 
     private fun setListener() {
         openListView.setOnClickListener {
-
+            startActivity(Intent(this, com.yanghaibooo.firstcode.four.list_view.MainActivity::class.java))
         }
         openRecycleView.setOnClickListener {
-
+            startActivity(Intent(this, com.yanghaibooo.firstcode.four.recycle_view.MainActivity::class.java))
         }
         openUiBestPractice.setOnClickListener {
 
