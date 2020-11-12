@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".eight.MainEightActivity"></activity>
+        <activity android:name=".four.list_view.MainActivity"></activity>
+        <activity android:name=".eight.MainEightActivity" />
         <activity android:name=".two.MainTwoActivity" />
         <activity android:name=".three.MainThreeActivity" />
         <activity android:name=".four.MainFourActivity" />
@@ -54,7 +55,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".three.activity.FirstActivity" />
-        <activity android:name=".two.hello_world.MainActivity" />
+        <activity android:name=".two.MainActivity" />
         <activity android:name=".one.MainOneActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

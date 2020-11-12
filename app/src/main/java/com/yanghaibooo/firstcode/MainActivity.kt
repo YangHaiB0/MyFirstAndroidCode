@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             Intent(this, MainOneActivity::class.java).also(this::startActivity)
         }
         twoChapter.setOnClickListener {
-            Intent(this, com.yanghaibooo.firstcode.two.hello_world.MainActivity::class.java).also(this::startActivity)
+            Intent(this, com.yanghaibooo.firstcode.two.MainActivity::class.java).also(this::startActivity)
         }
         threeChapter.setOnClickListener {
             Intent(this, MainThreeActivity::class.java).also(this::startActivity)

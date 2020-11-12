@@ -1,4 +1,4 @@
-package com.yanghaibooo.firstcode.two.hello_world
+package com.yanghaibooo.firstcode.two
 
 open class Person(val name: String, val age: Int) {
     fun eat() {

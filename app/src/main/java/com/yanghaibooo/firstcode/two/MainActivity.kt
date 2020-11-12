@@ -1,4 +1,4 @@
-package com.yanghaibooo.firstcode.two.hello_world
+package com.yanghaibooo.firstcode.two
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
