@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         initFruits()
 
-        val adapter = FruitAdapter(this, R.layout.item_four_listview_fruit, fruitList)
+        val adapter = FruitAdapter(this, R.layout.item_four_fruit, fruitList)
         listView.adapter = adapter
 
         listView.setOnItemClickListener { _, _, position, _ ->

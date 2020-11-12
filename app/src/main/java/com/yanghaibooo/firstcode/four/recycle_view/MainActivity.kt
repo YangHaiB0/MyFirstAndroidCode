@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         initFruits()
 
+        // 使用 LayoutManager 管理 recycleView
         val layoutManager = StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL)
         recycleView.layoutManager = layoutManager
 

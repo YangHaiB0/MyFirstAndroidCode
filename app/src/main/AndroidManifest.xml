@@ -13,38 +13,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".four.recycle_view.MainActivity"></activity>
-        <activity android:name=".four.list_view.MainActivity" />
-        <activity android:name=".eight.MainEightActivity" />
-        <activity android:name=".two.MainTwoActivity" />
-        <activity android:name=".three.MainThreeActivity" />
-        <activity android:name=".four.MainFourActivity" />
-        <activity android:name=".night.MediaActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <provider
-            android:name="androidx.core.content.FileProvider"
-            android:authorities="com.yanghaibooo.firstcode.night.fileprovider"
-            android:exported="false"
-            android:grantUriPermissions="true">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths" />
-        </provider>
-
-        <activity android:name=".night.CameraActivity" />
-        <activity android:name=".night.NotificationMainActivity" />
-        <activity android:name=".night.NotificationActivity" />
-        <activity android:name=".eight.contacts.MainActivity" />
-        <activity android:name=".eight.runtime_permission.MainActivity" />
-        <activity android:name=".three.activity.ThirdActivity">
-            <intent-filter tools:ignore="AppLinkUrlError">
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-
-                <data android:scheme="https" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".one.MainOneActivity" />
+        <activity android:name=".two.MainActivity" />
+        <activity android:name=".three.MainThreeActivity" />
+        <activity android:name=".three.activity.FirstActivity" />
         <activity
             android:name=".three.activity.SecondActivity"
             android:launchMode="singleInstance">
@@ -55,16 +34,35 @@
                 <category android:name="com.yanghaibooo.firstcode.three.MY_CATEGORY" />
             </intent-filter>
         </activity>
-        <activity android:name=".three.activity.FirstActivity" />
-        <activity android:name=".two.MainActivity" />
-        <activity android:name=".one.MainOneActivity" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".three.activity.ThirdActivity">
+            <intent-filter tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="https" />
             </intent-filter>
         </activity>
+        <activity android:name=".four.MainFourActivity" />
+        <activity android:name=".four.recycle_view.MainActivity" />
+        <activity android:name=".four.list_view.MainActivity" />
+        <activity android:name=".four.ui_best_practice.MainActivity" />
+        <activity android:name=".eight.MainEightActivity" />
+        <activity android:name=".eight.runtime_permission.MainActivity" />
+        <activity android:name=".eight.contacts.MainActivity" />
+        <activity android:name=".night.MediaActivity" />
+        <activity android:name=".night.CameraActivity" />
+        <activity android:name=".night.NotificationMainActivity" />
+        <activity android:name=".night.NotificationActivity" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.yanghaibooo.firstcode.night.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
     </application>
 
 </manifest>

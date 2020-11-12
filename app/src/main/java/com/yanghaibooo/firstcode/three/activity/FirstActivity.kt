@@ -19,11 +19,13 @@ class FirstActivity : BaseActivity() {
         }
     }
 
+    // 创建 Menu 菜单
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.main, menu)
         return true
     }
 
+    // Menu 点击事件
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.add_item -> Toast.makeText(this, "You Clicked Add", Toast.LENGTH_SHORT).show()

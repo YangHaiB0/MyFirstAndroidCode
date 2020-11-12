@@ -19,6 +19,7 @@ class SecondActivity : BaseActivity() {
         }
     }
 
+    //按下返回键触发
     override fun onBackPressed() {
         val intent = Intent()
         intent.putExtra("data_return", "Hello FirstActivity")
