@@ -1,17 +1,17 @@
-package com.yanghaibooo.firstcode.three
+package com.yanghaibooo.firstcode.three.activity
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import com.yanghaibooo.firstcode.R
-import kotlinx.android.synthetic.main.activity_second.*
+import kotlinx.android.synthetic.main.activity_three_second.*
 
 class SecondActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.d("SecondActivity", "Task id is $taskId")
-        setContentView(R.layout.activity_second)
+        setContentView(R.layout.activity_three_second)
 
         button2.setOnClickListener {
             val intent = Intent(this, ThirdActivity::class.java)

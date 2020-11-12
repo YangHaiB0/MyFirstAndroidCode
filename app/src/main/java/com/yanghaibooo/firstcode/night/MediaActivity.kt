@@ -3,15 +3,14 @@ package com.yanghaibooo.firstcode.night
 import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.VideoView
 import com.yanghaibooo.firstcode.R
-import kotlinx.android.synthetic.main.activity_media.*
+import kotlinx.android.synthetic.main.activity_night_media.*
 
 class MediaActivity : AppCompatActivity() {
     private val mediaPlayer = MediaPlayer()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_media)
+        setContentView(R.layout.activity_night_media)
         // 获得音频 初始化播放器
         initMediaPlayer()
 

@@ -7,6 +7,6 @@ import com.yanghaibooo.firstcode.R
 class NotificationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_notification)
+        setContentView(R.layout.activity_night_notification)
     }
 }

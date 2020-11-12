@@ -4,12 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".three.ThirdActivity">
+    android:orientation="vertical"
+    tools:context=".three.MainThreeActivity">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/openActivity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button3" />
+        android:text="OpenActivity" />
 
+    <Button
+        android:id="@+id/openActivityLifeCycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OpenActivityLifeCycle" />
 </LinearLayout>

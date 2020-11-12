@@ -1,4 +1,4 @@
-package com.yanghaibooo.firstcode.three
+package com.yanghaibooo.firstcode.three.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,14 +7,14 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import com.yanghaibooo.firstcode.R
-import kotlinx.android.synthetic.main.activity_first.*
+import kotlinx.android.synthetic.main.activity_three_first.*
 
 class FirstActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_first)
+        setContentView(R.layout.activity_three_first)
         button1.setOnClickListener {
-            Toast.makeText(this, "You Clicked Button 1", Toast.LENGTH_SHORT).show()
+            SecondActivity.actionStart(this, "data1", "data2")
             finish()
         }
     }

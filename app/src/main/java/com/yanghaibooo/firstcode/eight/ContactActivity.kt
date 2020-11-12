@@ -10,7 +10,7 @@ import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.yanghaibooo.firstcode.R
-import kotlinx.android.synthetic.main.activity_contact.*
+import kotlinx.android.synthetic.main.activity_eight_contact.*
 
 class ContactActivity : AppCompatActivity() {
 
@@ -19,7 +19,7 @@ class ContactActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_contact)
+        setContentView(R.layout.activity_eight_contact)
         // 设置通讯录数据展示列表
         adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, contactsList)
         contactsView.adapter = adapter

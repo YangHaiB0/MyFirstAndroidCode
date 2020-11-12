@@ -8,39 +8,57 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/openHelloWorld"
+        android:id="@+id/oneChapter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_open_hello_world" />
+        android:text="@string/oneChapter" />
 
     <Button
-        android:id="@+id/openFirstBtn"
+        android:id="@+id/twoChapter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_open_first" />
+        android:text="@string/twoChapter" />
 
     <Button
-        android:id="@+id/openRuntimePermissionBtn"
+        android:id="@+id/threeChapter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_open_runtime_permission" />
+        android:text="@string/threeChapter" />
 
     <Button
-        android:id="@+id/openContactBtn"
+        android:id="@+id/fourChapter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_open_contact" />
+        android:text="@string/fourChapter" />
 
     <Button
-        android:id="@+id/openNotificationBtn"
+        android:id="@+id/fiveChapter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_open_notification" />
+        android:text="@string/fiveChapter" />
 
     <Button
-        android:id="@+id/openCameraBtn"
+        android:id="@+id/sixChapter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_open_camera" />
+        android:text="@string/sixChapter" />
+
+    <Button
+        android:id="@+id/sevenChapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sevenChapter" />
+
+    <Button
+        android:id="@+id/eightChapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eightChapter" />
+
+    <Button
+        android:id="@+id/nightChapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nightChapter" />
 
 </LinearLayout>

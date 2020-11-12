@@ -14,7 +14,7 @@ import android.provider.MediaStore
 import android.widget.Toast
 import androidx.core.content.FileProvider
 import com.yanghaibooo.firstcode.R
-import kotlinx.android.synthetic.main.activity_camera.*
+import kotlinx.android.synthetic.main.activity_night_camera.*
 import java.io.File
 
 class CameraActivity : AppCompatActivity() {
@@ -25,7 +25,7 @@ class CameraActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_camera)
+        setContentView(R.layout.activity_night_camera)
 
         takePhotoBtn.setOnClickListener {
             // 创建File对象，用于存储拍照后的图片

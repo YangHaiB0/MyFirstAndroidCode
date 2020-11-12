@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".four.MainFourActivity">
+
+    <Button
+        android:id="@+id/openListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView" />
+
+    <Button
+        android:id="@+id/openRecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecycleView" />
+
+    <Button
+        android:id="@+id/openUiBestPractice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UiBestPractice" />
+
+    <Button
+        android:id="@+id/openUiCustomViews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CustomViews" />
+
+    <Button
+        android:id="@+id/openUiLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layout" />
+
+    <Button
+        android:id="@+id/openUiWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Widget" />
+
+</LinearLayout>

@@ -13,8 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".eight.MainEightActivity"></activity>
+        <activity android:name=".two.MainTwoActivity" />
+        <activity android:name=".three.MainThreeActivity" />
+        <activity android:name=".four.MainFourActivity" />
         <activity android:name=".night.MediaActivity" />
+
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.yanghaibooo.firstcode.night.fileprovider"
@@ -28,32 +32,30 @@
         <activity android:name=".night.CameraActivity" />
         <activity android:name=".night.NotificationMainActivity" />
         <activity android:name=".night.NotificationActivity" />
-
         <activity android:name=".eight.ContactActivity" />
         <activity android:name=".eight.RuntimePermissionActivity" />
-
-        <activity android:name=".three.ThirdActivity">
+        <activity android:name=".three.activity.ThirdActivity">
             <intent-filter tools:ignore="AppLinkUrlError">
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
+
                 <data android:scheme="https" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".three.SecondActivity"
+            android:name=".three.activity.SecondActivity"
             android:launchMode="singleInstance">
             <intent-filter>
                 <action android:name="com.yanghaibooo.firstcode.three.ACTION_START" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="com.yanghaibooo.firstcode.three.MY_CATEGORY" />
             </intent-filter>
         </activity>
-        <activity android:name=".three.FirstActivity" />
-
-        <activity android:name=".two.HelloWorld" />
-
-        <activity android:name=".one.HelloWorldActivity" />
-
+        <activity android:name=".three.activity.FirstActivity" />
+        <activity android:name=".two.hello_world.MainActivity" />
+        <activity android:name=".one.MainOneActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

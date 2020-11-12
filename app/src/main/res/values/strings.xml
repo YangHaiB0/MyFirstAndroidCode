@@ -1,16 +1,20 @@
 <resources>
     <string name="app_name">FirstCode</string>
 
-    <string name="btn_open_hello_world">打开HelloWorld</string>
-    <string name="btn_open_first">打开FirstActivity</string>
-    <string name="btn_open_runtime_permission">打开RuntimePermission</string>
-    <string name="btn_open_contact">打开Contact</string>
-    <string name="btn_open_notification">打开Notification</string>
-    <string name="btn_open_camera">打开Camera</string>
+    <string name="oneChapter">第一章</string>
+    <string name="twoChapter">第二章</string>
+    <string name="threeChapter">第三章</string>
+    <string name="fourChapter">第四章</string>
+    <string name="fiveChapter">第五章</string>
+    <string name="sixChapter">第六章</string>
+    <string name="sevenChapter">第七章</string>
+    <string name="eightChapter">第八章</string>
+    <string name="nightChapter">第九章</string>
 
     <string name="button1">Button1</string>
-    <string name="button3">Button3</string>
     <string name="button2">Button2</string>
+    <string name="button3">Button3</string>
+
     <string name="remove">Remove</string>
     <string name="add">Add</string>
     <string name="make_call">Make Call</string>

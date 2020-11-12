@@ -1,4 +1,4 @@
-package com.yanghaibooo.firstcode.three
+package com.yanghaibooo.firstcode.three.activity
 
 class Util {
     fun doAction1() {

@@ -11,13 +11,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.app.NotificationCompat
 import com.yanghaibooo.firstcode.R
-import kotlinx.android.synthetic.main.activity_notification_main.*
-import java.nio.channels.Channel
+import kotlinx.android.synthetic.main.activity_night_notification_main.*
 
 class NotificationMainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_notification_main)
+        setContentView(R.layout.activity_night_notification_main)
         // 通知跳转
         val intent = Intent(this, NotificationActivity::class.java)
         val pendingIntent = PendingIntent.getActivity(this, 0, intent, 0)

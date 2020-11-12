@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".eight.MainEightActivity">
+
+    <Button
+        android:id="@+id/openContactActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ContactActivity" />
+
+    <Button
+        android:id="@+id/openDatabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Database" />
+
+    <Button
+        android:id="@+id/openProvider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Provider" />
+
+    <Button
+        android:id="@+id/openRuntimePermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RuntimePermission" />
+
+</LinearLayout>

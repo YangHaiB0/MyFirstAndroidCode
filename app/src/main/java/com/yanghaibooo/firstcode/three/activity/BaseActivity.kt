@@ -1,4 +1,4 @@
-package com.yanghaibooo.firstcode.three
+package com.yanghaibooo.firstcode.three.activity
 
 import android.os.Bundle
 import android.util.Log
