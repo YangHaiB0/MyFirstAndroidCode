@@ -23,24 +23,24 @@
         android:id="@+id/openRuntimePermissionBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/open_runtime_permission" />
+        android:text="@string/btn_open_runtime_permission" />
 
     <Button
         android:id="@+id/openContactBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/open_contact" />
+        android:text="@string/btn_open_contact" />
 
     <Button
         android:id="@+id/openNotificationBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/open_notification" />
+        android:text="@string/btn_open_notification" />
 
     <Button
         android:id="@+id/openCameraBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/open_camera" />
+        android:text="@string/btn_open_camera" />
 
 </LinearLayout>
