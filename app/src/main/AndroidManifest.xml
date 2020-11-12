@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".night.MediaActivity"></activity>
+        <activity android:name=".two.HelloWorld"></activity>
+        <activity android:name=".one.HelloWorldActivity" />
+        <activity android:name=".night.MediaActivity" />
 
         <provider
             android:name="androidx.core.content.FileProvider"

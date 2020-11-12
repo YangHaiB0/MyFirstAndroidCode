@@ -7,6 +7,7 @@ import com.yanghaibooo.firstcode.eight.ContactActivity
 import com.yanghaibooo.firstcode.eight.RuntimePermissionActivity
 import com.yanghaibooo.firstcode.night.CameraActivity
 import com.yanghaibooo.firstcode.night.NotificationMainActivity
+import com.yanghaibooo.firstcode.one.HelloWorldActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -17,8 +18,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setListener() {
-        openFirstBtn.setOnClickListener {
-            Intent(this, FirstActivity::class.java).also(this::startActivity)
+        openHelloWorld.setOnClickListener {
+            Intent(this, HelloWorldActivity::class.java).also(this::startActivity)
         }
         openRuntimePermissionBtn.setOnClickListener {
             Intent(this, RuntimePermissionActivity::class.java).also(this::startActivity)

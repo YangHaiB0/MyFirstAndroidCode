@@ -16,4 +16,5 @@
     <string name="play">Play</string>
     <string name="pause">Pause</string>
     <string name="stop">Stop</string>
+    <string name="btn_open_hello_world">打开HelloWorld</string>
 </resources>

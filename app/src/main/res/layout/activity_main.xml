@@ -8,6 +8,12 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/openHelloWorld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_open_hello_world" />
+
+    <Button
         android:id="@+id/openFirstBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,11 +30,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/open_contact" />
+
     <Button
         android:id="@+id/openNotificationBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/open_notification" />
+
     <Button
         android:id="@+id/openCameraBtn"
         android:layout_width="match_parent"
