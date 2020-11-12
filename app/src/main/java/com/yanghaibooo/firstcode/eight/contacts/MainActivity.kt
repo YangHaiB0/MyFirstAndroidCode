@@ -1,31 +1,31 @@
-package com.yanghaibooo.firstcode.eight
+package com.yanghaibooo.firstcode.eight.contacts
 
 import android.Manifest
 import android.content.pm.PackageManager
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.ContactsContract
 import android.widget.ArrayAdapter
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.yanghaibooo.firstcode.R
-import kotlinx.android.synthetic.main.activity_eight_contact.*
+import kotlinx.android.synthetic.main.activity_eight_contact_main.*
 
-class ContactActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
 
     private val contactsList = ArrayList<String>()
     private lateinit var adapter: ArrayAdapter<String>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_eight_contact)
+        setContentView(R.layout.activity_eight_contact_main)
         // 设置通讯录数据展示列表
         adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, contactsList)
         contactsView.adapter = adapter
         // 是否读取通讯录权限
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED)
-            // 未授权 请求获得权限
+        // 未授权 请求获得权限
             ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.READ_CONTACTS), 1)
         else {
             // 已授权 读取通讯录

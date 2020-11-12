@@ -1,10 +1,9 @@
 package com.yanghaibooo.firstcode.eight
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.yanghaibooo.firstcode.R
-import kotlinx.android.synthetic.main.activity_four_main.*
 import kotlinx.android.synthetic.main.activity_main_eight.*
 
 class MainEightActivity : AppCompatActivity() {
@@ -17,7 +16,7 @@ class MainEightActivity : AppCompatActivity() {
 
     private fun setListener() {
         openContactActivity.setOnClickListener {
-            startActivity(Intent(this, ContactActivity::class.java))
+            startActivity(Intent(this, com.yanghaibooo.firstcode.eight.contacts.MainActivity::class.java))
         }
         openDatabase.setOnClickListener {
 
@@ -26,7 +25,7 @@ class MainEightActivity : AppCompatActivity() {
 
         }
         openRuntimePermission.setOnClickListener {
-            startActivity(Intent(this, RuntimePermissionActivity::class.java))
+            startActivity(Intent(this, com.yanghaibooo.firstcode.eight.runtime_permission.MainActivity::class.java))
         }
     }
 }

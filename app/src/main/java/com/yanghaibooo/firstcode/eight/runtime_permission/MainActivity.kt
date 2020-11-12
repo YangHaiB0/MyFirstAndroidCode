@@ -1,4 +1,4 @@
-package com.yanghaibooo.firstcode.eight
+package com.yanghaibooo.firstcode.eight.runtime_permission
 
 import android.Manifest
 import android.content.Intent
@@ -10,13 +10,13 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.yanghaibooo.firstcode.R
-import kotlinx.android.synthetic.main.activity_eight_runtime_permission.*
+import kotlinx.android.synthetic.main.activity_eight_runtime_permission_main.*
 
 
-class RuntimePermissionActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_eight_runtime_permission)
+        setContentView(R.layout.activity_eight_runtime_permission_main)
 
         makeCall.setOnClickListener {
             if (ContextCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {

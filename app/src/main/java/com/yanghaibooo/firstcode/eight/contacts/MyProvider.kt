@@ -1,4 +1,4 @@
-package com.yanghaibooo.firstcode.eight
+package com.yanghaibooo.firstcode.eight.contacts
 
 import android.content.ContentProvider
 import android.content.ContentValues

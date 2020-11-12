@@ -1,7 +1,7 @@
 package com.yanghaibooo.firstcode.two.hello_world
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.yanghaibooo.firstcode.R
 
 class MainActivity : AppCompatActivity() {

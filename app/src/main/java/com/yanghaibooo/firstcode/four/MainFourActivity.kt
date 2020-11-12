@@ -1,7 +1,7 @@
 package com.yanghaibooo.firstcode.four
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.yanghaibooo.firstcode.R
 import kotlinx.android.synthetic.main.activity_four_main.*
 

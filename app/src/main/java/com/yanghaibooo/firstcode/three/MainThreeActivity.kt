@@ -1,8 +1,8 @@
 package com.yanghaibooo.firstcode.three
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.yanghaibooo.firstcode.R
 import com.yanghaibooo.firstcode.three.activity.FirstActivity
 import kotlinx.android.synthetic.main.activity_three_main.*

@@ -8,10 +8,10 @@ import android.graphics.Matrix
 import android.media.ExifInterface
 import android.net.Uri
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.FileProvider
 import com.yanghaibooo.firstcode.R
 import kotlinx.android.synthetic.main.activity_night_camera.*

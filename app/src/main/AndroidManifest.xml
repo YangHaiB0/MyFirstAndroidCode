@@ -32,8 +32,8 @@
         <activity android:name=".night.CameraActivity" />
         <activity android:name=".night.NotificationMainActivity" />
         <activity android:name=".night.NotificationActivity" />
-        <activity android:name=".eight.ContactActivity" />
-        <activity android:name=".eight.RuntimePermissionActivity" />
+        <activity android:name=".eight.contacts.MainActivity" />
+        <activity android:name=".eight.runtime_permission.MainActivity" />
         <activity android:name=".three.activity.ThirdActivity">
             <intent-filter tools:ignore="AppLinkUrlError">
                 <action android:name="android.intent.action.VIEW" />

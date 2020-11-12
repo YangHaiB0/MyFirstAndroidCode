@@ -1,8 +1,8 @@
 package com.yanghaibooo.firstcode.night
 
 import android.media.MediaPlayer
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.yanghaibooo.firstcode.R
 import kotlinx.android.synthetic.main.activity_night_media.*
 
