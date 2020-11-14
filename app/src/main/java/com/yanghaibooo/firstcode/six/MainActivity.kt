@@ -14,5 +14,9 @@ class MainActivity : AppCompatActivity() {
         openBroadcast.setOnClickListener {
             Intent(this, com.yanghaibooo.firstcode.six.broadcast.MainActivity::class.java).also(this::startActivity)
         }
+
+        openPractice.setOnClickListener {
+            Intent(this, com.yanghaibooo.firstcode.six.practice.LoginActivity::class.java).also(this::startActivity)
+        }
     }
 }
