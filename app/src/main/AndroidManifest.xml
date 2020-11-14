@@ -5,6 +5,7 @@
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
         android:allowBackup="true"
@@ -13,20 +14,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".five.fragment_practice.NewsContentActivity"></activity>
-        <activity android:name=".five.fragment_practice.MainActivity" />
-        <activity android:name=".five.fragment.MainActivity" />
-        <activity android:name=".five.MainFiveActivity" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".IndexActivity"
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".one.MainOneActivity" />
+        <activity android:name=".one.MainActivity" />
         <activity android:name=".two.MainActivity" />
-        <activity android:name=".three.MainThreeActivity" />
+        <activity android:name=".three.MainActivity" />
         <activity android:name=".three.activity.FirstActivity" />
         <activity
             android:name=".three.activity.SecondActivity"
@@ -47,11 +46,45 @@
                 <data android:scheme="https" />
             </intent-filter>
         </activity>
-        <activity android:name=".four.MainFourActivity" />
+        <activity android:name=".four.MainActivity" />
         <activity android:name=".four.recycle_view.MainActivity" />
         <activity android:name=".four.list_view.MainActivity" />
         <activity android:name=".four.ui_best_practice.MainActivity" />
-        <activity android:name=".eight.MainEightActivity" />
+        <activity android:name=".five.MainActivity" />
+        <activity android:name=".five.fragment_practice.NewsContentActivity" />
+        <activity android:name=".five.fragment_practice.MainActivity" />
+        <activity android:name=".five.fragment.MainActivity" />
+        <activity android:name=".six.MainActivity" />
+        <activity android:name=".six.broadcast.MainActivity" />
+        <activity android:name=".six.practice.LoginActivity"/>
+        <activity android:name=".six.practice.MainActivity" />
+
+        <receiver
+            android:name=".six.broadcast.BootCompleteReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".six.broadcast.MyBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="100">
+                <action android:name="com.yanghaibooo.firstcode.six.broadcast.MY_BROADCAST" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".six.broadcast.AnotherBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.yanghaibooo.firstcode.six.broadcast.MY_BROADCAST" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".eight.MainActivity" />
         <activity android:name=".eight.runtime_permission.MainActivity" />
         <activity android:name=".eight.contacts.MainActivity" />
         <activity android:name=".night.MediaActivity" />

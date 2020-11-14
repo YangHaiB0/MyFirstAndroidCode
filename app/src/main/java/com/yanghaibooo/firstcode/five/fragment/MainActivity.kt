@@ -11,17 +11,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_five_fragment_main)
 
-        replaceFragment(RightFragment())
+//        replaceFragment(RightFragment())
         button.setOnClickListener {
             replaceFragment(AnotherRightFragment())
         }
-        replaceFragment(RightFragment())
+//        replaceFragment(RightFragment())
     }
 
     private fun replaceFragment(fragment: Fragment) {
         val fragmentManager = supportFragmentManager
         val transaction = fragmentManager.beginTransaction()
-        transaction.replace(R.id.rightFrag, fragment)
+        transaction.replace(R.id.leftFrag, fragment)
         transaction.addToBackStack(null)
         transaction.commit()
     }

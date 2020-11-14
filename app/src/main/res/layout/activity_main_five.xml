@@ -5,17 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".three.MainThreeActivity">
+    tools:context=".five.MainActivity">
 
     <Button
-        android:id="@+id/openActivity"
+        android:id="@+id/openFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="OpenActivity" />
+        android:text="打开Fragment" />
 
     <Button
-        android:id="@+id/openActivityLifeCycle"
+        android:id="@+id/openPractice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="OpenActivityLifeCycle" />
+        android:text="打开Practice" />
+
 </LinearLayout>

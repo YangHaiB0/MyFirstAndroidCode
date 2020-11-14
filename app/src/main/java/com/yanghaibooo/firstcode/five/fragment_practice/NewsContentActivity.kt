@@ -2,10 +2,10 @@ package com.yanghaibooo.firstcode.five.fragment_practice
 
 import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.yanghaibooo.firstcode.R
-import kotlinx.android.synthetic.main.activity_five_main.*
+import kotlinx.android.synthetic.main.activity_five_frag_practice_news_content.*
 
 class NewsContentActivity : AppCompatActivity() {
     companion object {

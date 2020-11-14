@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.yanghaibooo.firstcode.R
+import kotlinx.android.synthetic.main.fragment_news_content.*
 
 class RightFragment : Fragment() {
 
