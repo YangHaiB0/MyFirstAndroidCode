@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             replaceFragment(AnotherRightFragment())
         }
-//        replaceFragment(RightFragment())
+        replaceFragment(RightFragment())
     }
 
     private fun replaceFragment(fragment: Fragment) {

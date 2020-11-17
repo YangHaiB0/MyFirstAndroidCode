@@ -56,8 +56,11 @@
         <activity android:name=".five.fragment.MainActivity" />
         <activity android:name=".six.MainActivity" />
         <activity android:name=".six.broadcast.MainActivity" />
-        <activity android:name=".six.practice.LoginActivity"/>
+        <activity android:name=".six.practice.LoginActivity" />
         <activity android:name=".six.practice.MainActivity" />
+        <activity android:name=".seven.MainActivity" />
+        <activity android:name=".seven.shared_preferences.MainActivity" />
+        <activity android:name=".seven.database.MainActivity" />
 
         <receiver
             android:name=".six.broadcast.BootCompleteReceiver"

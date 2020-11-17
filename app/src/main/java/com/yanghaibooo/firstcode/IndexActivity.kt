@@ -32,7 +32,7 @@ class IndexActivity : AppCompatActivity() {
             Intent(this, com.yanghaibooo.firstcode.six.MainActivity::class.java).also(this::startActivity)
         }
         sevenChapter.setOnClickListener {
-            Intent(this, IndexActivity::class.java).also(this::startActivity)
+            Intent(this, com.yanghaibooo.firstcode.seven.MainActivity::class.java).also(this::startActivity)
         }
         eightChapter.setOnClickListener {
             Intent(this, IndexActivity::class.java).also(this::startActivity)
